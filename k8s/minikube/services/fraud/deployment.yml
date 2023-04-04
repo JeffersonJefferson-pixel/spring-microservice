@@ -15,7 +15,7 @@ spec:
       containers:
         - name: fraud
           image: jeffersonjeffersonpixel/fraud:latest
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 8081
           env:

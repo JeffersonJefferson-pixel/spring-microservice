@@ -15,7 +15,7 @@ spec:
       containers:
         - name: notification
           image: jeffersonjeffersonpixel/notification:latest
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 8082
           env:
